@@ -1,0 +1,141 @@
+Calculatrice pour malvoyant
+
+#accessibilité
+---------------
+Apparences : 
+§ sobriété
+§ clareté
+§ efficacité
+§ sccès historique => menu.
+
+Utilisation :
+--------------
+*responsive
+*swipe 4 directions = 4 keys arrows
+*touch = Enter key or space key
+
+*choice : good Eyes
+	colorfull enlightning
+	blind use
+
+structure :
+------------
+A title
+A thematic description
+
+A menu of uses
+A User experience description
+
+A number pad
+A operator pad
+(A funtions pad)
+
+A operations board
+A box displaying result 
+A result capture
+
+A navigation inside the oprations board
+A navigation inside the history of operations
+A table displaying the history navigation
+
+(Advanced featuring)
+
+
+========================
+
+
+List of numbers :
+
+0
+1 2 3 4 5 6 7 8 9
+e i PI
+. ^              ~~for non-integers & raised numbers 
+
+List of simple operators :
+
+=
++ - * / 
+! // % 
+° " ' 
+( ) 
+
+List of main functions :
+
+(;;)          ~~ coordonnées : barspace ou maj key permet de basculer d'une coordonnée à l'autre. Il s'agit de matrice en fait : Array. Tout à fait enchassâble. 
+Par ordre  de plus enchâssé au moins enchâssé: lignes / colonnes/ étage // rue / avenue / quartier // autoroute / échangeur / district // viaduc / canal / ville // côte / mer / Etat // continent / océan / époque // Peuple / Histoire / Mythe // temps / terre / univers // réalité / monde / l'au-delà // origine / création / Mystère ... 
+log() % grad
+sin() cos() tan()
+Asin() Acos() Atan()
+PI PHI itertors
+
+Par ordre  de plus enchâssé au moins enchâssé: lignes / colonnes/ étage // rue / avenue / quartier // autoroute / échangeur / district // viaduc / canal / ville // côte / mer / Etat // continent / océan / époque // Peuple / Histoire / Mythe // temps / terre / univers // réalité / monde / l'au-delà // origine / création / Mystère ... 
+
+Choisis un mystère ! 
+Pas si facile de se décider ... tu ne sais pas choisir ? Pourquoi ? En voilà, un mystère !? Alors choisis.
+
+Ensuite, détermine ce qui a pu créer ce mystère, ou détermine ce que mystère créera. Pas facile de choisir... 
+Pourtant il faudra engendrer un choix.
+
+Quelle est l'origine de cette création ? est-elle unique ? 
+
+Et qu'y a-t-il au-delà  ? 
+Qu'y a-t-il au-delà de la création aussi ?
+Précise à mort ta réponse. Tu ne peux laissr planer aucun mystère ici. C'est à la première question que tu peux répondre de cette façon nulle autre !
+
+Dans quel monde prend place tout ce dont tu parles ?
+
+Contient-il plusieurs réalité ? Définis-en une.
+
+Cette réalité permet-elle le voyage ? A quoi ressemble l'univers auquel elle nous expose ? Y en a-t-il plusieurs ? Si oui, selon quels aspects de la réalité ? Quels sont les aspects déterminant chaque environnement ?
+
+Sur quelle terre nous conduis-tu ? Il existe bien un espace dans lequel tu nous places ! Trouve-le.
+
+Comment s'écoule le temps sur place ? décris-le un peu. Il existe mille variante, non ?
+
+Cette écoulement et ce lieu peuvent donner lieu à de nombreux mythes sur l'univers et la réalité dans laquelle tu nous emmènes. Proposes-en un à décrouvrir.
+
+Suivant Tout mythe évolue dans le temps et connaît plusieurs variantes. Surtout ils canalisent l'Histoire comme le mythe du Christ par exemple, en Occident. Quelle Histoire le mythe évoqué entrenera-t-il ? Ou de quelle Histoire relève-t-il ? Quel est son historique ? 
+
+La question est fastidieuse tant que l'on ne sait pas non plus vraiment quoi ou qui produit cette Histoire  ? Quel peuple la réalise ? Sont-ce des humains, des atomes ? Ou tout autre chose ? 
+
+Toute terre possède des âges bien distincts. A quelle époque a pris place l'Histoire des peuples et des mythes en lien étroit avec le récit et la population auxquels tu nous as introduit ? Determine-la.
+
+Admettons qu'il y ait beaucoup d'eau dans ce monde. A proximité de quel océan tout ceci s'accomplit ? 
+
+Sur quel continent plus précisément ? Nommes-en un !
+
+
+On peut encore être plus précis et découvrir depuis quel Etat côtier tu nous situe.
+
+Et maintenant que nous y sommes, quelle mer se jette dessus ? Y en a-t-il plusieurs ? Laquelle nous concerne le plus ?
+
+Il existe des golfs, des presqu'îles, des falaises, des plages. Brefs, une multitudes de litorals possibles. A quoi ressemble l'une de ces côtes lèchée par cette mer en cet Etat ?
+
+Depuis quelles foyers peut-on rejoindre cette frontière naturelle ? Présente-moi un centre ; un genre de ville peut-être ?
+
+en Flandre, de nombreux canaux rentre à l'intérieur de la terre pour donner accès à des ports. En Amérique, New York est subdivisé par la rivière Hudson. Peut-préciser la position de l'un d'eux suivant l'univers que tu me décris ?
+
+Pour franchir les cours d'eaux, ont été construit les viaducs. Lequel est à proximité ? 
+
+Parfois, ceux-ci servent de frontière entre districts. Dans quelle partie de la ville nous situons-nous ?
+
+On accède aux viaducs via des échangeurs routier. Y en a-t-il un qui déssert ce district ? 
+
+Quelle autoroute nous conduit au plus proche ? 
+
+Parmi celles qui traversent le district, depuis lequel de ses quartier peut-on gagner l'autoroute qui nous conduira  l'échangeur le plus proche ?
+
+Sur quelle avenue débouche la sortie d'autoroute ?
+
+Dans quelle rue nous sommes situé ? 
+
+A quel étage ?
+
+Quel sont les corridors qui mènent à la porte de notre situation présente ? 
+
+Grâce à toutes les informations que tu as donné, je peux précisément identifier la situation. Chaque information est une donnée, et ensemble elles constituent les coordonnées de la situation. Il y en a 30. Etage, corridor et portes correspodent à la hauteur, longitude, latitude, localement. On constate à quel point il existe davantage de dimensions. Modifier une seule coordonnée déplace complèment la situation vers un tout autre contexte. Chaque variation s'équivaut , d'un étage à un autre continent, les kilomètres n'altèrent pas davantage la situation / l'état de l'existence déterminée. Le voyage vous l'enseigne. Mais ce ceci n'est encore qu'une réalité parmi d'autre...
+
+   
+
+
+

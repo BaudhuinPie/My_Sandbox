@@ -1,0 +1,16 @@
+{
+  "name": "appy-contained",
+  "version": "1.0.0",
+  "description": "node.sj exo, installed in a container via its own terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "node.js",
+    "exo"
+  ],
+  "author": "Pierre",
+  "license": "ISC"
+}
