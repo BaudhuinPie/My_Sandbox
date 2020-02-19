@@ -1,0 +1,264 @@
+
+/* ___ Marine menu-photos ___ */
+.menu-photos {
+  display : none ; 
+}
+
+/* Pierre et Marine */
+/* __ style facebook __ */
+/* _ organisation des individus _ */
+
+#facebook
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width : 70% ;
+  margin: auto ;
+  box-sizing: border-box ;
+}
+
+/* _ folder individu _ */
+.hi
+{
+  flex: 300px;
+  flex-direction:column ;
+  align-items: center ;
+  width : auto ;
+  margin-bottom : 30px;
+}
+/* - partie texte - */
+.persotexte
+{ 
+  display: flex ;
+  flex-direction:column ;
+  align-items: center ;
+  margin : 10px ;
+    box-shadow: none ;
+    border: 3px solid black ;
+}
+.persotexte, .persotexte p 
+{
+  min-width: 300px;
+  overflow: auto ;
+}
+
+.persotexte h3
+{
+ 
+  padding: 20px ; 
+  margin : 20px ;
+  font-size: 5vw ;
+  color: black;
+
+    font-family: "Press Start 2P", cursive;
+    text-decoration: underline ;
+    border-radius: 0px ;
+}
+.persotexte p 
+{
+  font-size: 5vw ;
+  white-space: pre-line ;
+  margin: 10px ; 
+  padding: 0 ; 
+  text-align: center ; 
+  color: black;
+  
+}
+/* - - */
+
+.hi div
+{
+  width: 100% ;
+  margin: 0 ;
+  padding: 0; 
+}
+/* __ Pierre-fin __ */
+
+/* ___ William ___ */
+.PikaBall p
+{
+  
+  height: auto;
+  margin-top: 230px;
+
+}
+.PikaBall p img
+{
+  width: 100%;
+  
+}
+
+.adresse
+{
+  margin-top: 100px;
+}
+
+.adresse p
+{
+  border: 2px;
+  border-style:solid;
+  border-color:black;
+  background: white;
+  text-align: center;
+  font-family:  "Press Start 2P", cursive;
+  font-size: 10px;
+  margin: auto;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 50px;
+}
+
+footer
+{
+  display: flex;
+  flex-direction: column ;
+  align-items: right;
+  justify-content: flex-start;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+
+footer img
+{
+  width: 50px;
+  height: 50px;
+  justify-content: center
+  
+}
+
+.adresse img
+{
+  padding: 35px;
+
+}
+
+.Follow {
+  display: flex;
+  justify-content: center;
+}
+
+/*  Will-fin */
+/* ====================================================================== */
+@media screen and (max-width: 499px)
+{
+  .hi div {
+    width: 100%;
+    overflow: hidden;
+  
+  }
+
+  .hi div img {
+    width: 100%;
+  }
+}
+/* ======================================================================= */
+
+@media screen and (min-width: 500px)
+{
+  
+/* __ Marine menuphoto __ */
+.menu-photos {
+    display : flex;
+    flex-wrap: wrap;
+    padding-right: 15px;
+    justify-content: center; 
+    align-items: : center;
+  
+  }
+  
+  .menu-photos > p {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .menu-photos > p > a {
+    margin : 0 ;
+    padding: 0;
+  }
+  
+  .menu-photos > p > img {
+    width: 100%;
+    margin: 20px;
+  }
+  /*  Marine-fin */
+
+/* Pierre et Marine */
+/* _ folder individu _ */
+#facebook 
+{
+  width: 94% ;
+}
+
+  
+  .hi div {
+    height: 250px;
+    /* overflow: hidden; */
+    max-width: 300px; 
+    
+  }
+
+  .hi div img {
+    height: 100%;
+    border-radius : 40px;
+  }
+
+  .hi {
+    max-height: 700px ;
+    width: 100% ;
+    display: flex ;
+    flex-direction:row ;
+    flex-wrap: nowrap ;
+    align-items: center ;
+    justify-content: space-around ;
+    margin-top : 15px;
+    margin-bottom: 15px ;
+    overflow: hidden;
+    
+    
+  }  
+/*  - partie texte -  */
+
+  .persotexte
+  {
+    height: 250px ;
+    max-width: 50vw ;
+    margin-top : 50px;
+    margin-bottom: 50px ;
+    /* margin-right : 100px ; */
+    box-shadow: none ;
+    border: 3px solid black ;
+  }
+
+/* .persotexte, .persotexte p 
+{
+} */
+
+  .persotexte h3 {
+    font-size:  2rem ;
+    font-family: "Press Start 2P", cursive;
+    text-decoration: underline ;
+    border-radius: 0px ;
+    padding : 10px ;
+    color: black; 
+    box-shadow: 5px 5px 6px 4px white ;
+  }
+
+  .persotexte p {
+    font-size: 1rem;
+    text-align: left ;
+    
+  }
+/*  - - */
+/* -will détail - */
+.PikaBall p img
+{
+  max-width: 50%;
+}
+.PikaBall p {
+  margin-left : 32%;
+}
+}
+

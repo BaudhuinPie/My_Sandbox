@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Pika Year's Book</title>
+        <link rel="stylesheet" type="text/css" href="searchbar.css"> 
+
+    </head>  ​
+
+    <body>
+        <nav>
+            <div>
+                <input type="text" name="searchNames" id="findName" onfocusout="unFog()" placeholder="Sandra Bullock ?"> <!-- Event trigger : onkeyup // handler = namesList_keyEvent()  <> searchbar.js -->
+                <ol id="listNames" onclick="unFog()">
+                    
+                </ol>
+            </div>
+        </nav>
+        <!-- <button onclick="printer()">check</button>
+        <p></p> onkeyup="list_help()"-->
+        <script src="searchbar.js"></script>
+    </body>
+</html>

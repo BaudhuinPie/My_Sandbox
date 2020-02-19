@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+            <meta name="description" content="">
+            <meta name="keywords" content="">
+            <meta name="author" content="">
+
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+            <title>findThePrecious.com</title>
+            <link rel="stylesheet" href="calculator.css">
+
+    </head>
+    <body>
+            <div style="background-color:yellow;"><p style="height: 50px;vertical-align: bottom;">saloperie!!!</p></div>
+    <main class='now-use-calculator'>
+      
+
+        <div class='the-working-pads horizontal-view'>
+
+                <ul class='pad-model vertical-view' id='the-numbers-pad'> <!-- Le zéro key event est attaché au pad-model dans le visuel : zéro = 2 touches de part et d'autres le pad-->
+                    <li>
+                                <div class="onBox" >
+                                        <div class="pad-button  tipBox" id="exponential">^</div>
+                                </div> <!-- // ajouter title// Press one and §parenthesis appears. To leave out, go on the operator board. To keep working inside the parenthesis : press twice on the button before writing again. Pressing 3 times ('^^^') turns in '!' negative symbole previously a number to click. When leaving number pad, you leave out the $parenthesis i n this last case.-->
+                    </li>
+                    <li>
+                        <div class="square-pad onBox">
+                            <ul class='num-pad vertical-view'> 
+                                <li class='inside-the-square horizontal-view'>
+                                        <p class="pad-button ">1</p>
+                                        <p class="pad-button ">2</p>
+                                        <p class="pad-button ">3</p>
+                                </li>
+                                <li class='inside-the-square horizontal-view'>
+                                        <div class="pad-button ">4</div>
+                                        <div class="pad-button ">5</div>
+                                        <div class="pad-button ">6</div>
+                                </li>
+                                <li class='inside-the-square horizontal-view'>
+                                        <div class="pad-button ">7</div>
+                                        <div class="pad-button ">8</div>
+                                        <div class="pad-button ">9</div>
+                                </li>
+                                <!-- <li class='horizontal-view'>
+                                        <div class="pad-button ">e</div>
+                                        <div class="pad-button ">i</div>
+                                        <div class="pad-button ">PIIII</div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                                <div class="onBox" >
+                                        <div class="pad-button  tipBox" id="dot">.</div>   
+                                </div>
+                    </li>
+                </ul>
+
+                
+                
+                <ul class='pad-model vertical-view' id='the-operators-pad'> <!--Pressing on open margin buttons besides operators pad to leave out the §parenthesis-->
+                    <li>
+                                <div class="onBox" >
+                                    <div class="pad-button  tipBox" id="equal-to">=</div>
+                                </div>
+                    </li>
+                    <li>
+                        <div class="square-pad onBox"> <!--pressing twice any button brings you back on number pad inside §parenthesis-->
+                            <ul class='num-pad vertical-view'> 
+                                <li class='inside-the-square horizontal-view'>
+                                        <div class="pad-button ">!</div>
+                                        <div class="pad-button ">+</div>
+                                        <div class="pad-button ">%</div>
+                                </li>
+                                <li class='inside-the-square horizontal-view'>
+                                        <div class="pad-button ">(</div> <!--Pressing on opening parenthesis drives back to numbers pad-->
+                                        <div class="pad-button ">*</div>
+                                        <div class="pad-button ">)</div> <!--Pressing on closing parenthesis keeps on operators pad-->
+                                </li>
+                                <li class='inside-the-square horizontal-view'>
+                                        <div class="pad-button ">//</div>
+                                        <div class="pad-button ">-</div>
+                                        <div class="pad-button ">/</div>
+                                </li>
+                            </ul>
+                    </div>
+                    </li>
+                    <li>
+                                <div class="onBox" id="inDegrees">
+                                        <div class="pad-button  tipBox" id="inDegrees">°</div>
+                                </div>
+                    </li>
+                </ul>
+                        
+
+                
+                
+                <ul class='pad-model vertical-view' id='the-functions-pad'> <!--(;;)  log() % grad sin() cos() tan()Asin() Acos() Atan() PI PHI itertors-->
+                    <li>
+                                    <div class="pad-button onBox" id="coordonates">(;..;)</div>
+                    </li>
+                    <li>
+                        <div class="num-pad onBox" id="operators-box"> 
+                            <!-- <ol>
+                                <li class="pad-button ">log()</li>
+                                <li class="pad-button ">%</li>
+                                <li class="pad-button ">grad</li>
+                                <li class="pad-button ">sin()</li> 
+                                <li class="pad-button ">cos()</li>
+                                <li class="pad-button ">tan()</li> 
+                                <li class="pad-button ">Asin()</li>
+                                <li class="pad-button ">Acos()</li>
+                                <li class="pad-button ">Atan()</li>
+                            </ol> -->
+
+                        </div>
+                    </li>
+                    <li>
+                                <div class="pad-button " id="PI-very-precised">PI$$$$$</div>
+                                <div class="pad-button " id="E-very-precised">e()</div>
+                                <div class="pad-button " id="PHI-very-precised">PHI$$$$</div>
+                    </li>
+                </ul>
+                
+
+        </div> <!--End of Working Pads Area-->
+
+        <div class='the-operations-screening'>
+                <div class='the-operations-board'>
+
+                </div>
+                <div class='the-result-box'>
+
+                </div>
+                <div class='take-away-that-result'>
+
+                </div>
+
+        </div>
+    </main>
+    <aside class='to-update-and-look-after'>
+            <div class='the-working-pads'>
+                    <div class='navigation-into-operations-board'>
+        
+                    </div>
+                    <div class='navigation-into-operations-history'>
+        
+                    </div>
+                    <div class='displaying-history-navigation'>
+        
+                    </div>
+        
+            </div>        
+
+    </aside>
+
+    </body>
+</html>

@@ -1,0 +1,153 @@
+body {
+
+padding:0px;
+margin:0px;
+
+}
+
+* {
+    box-sizing:border-box;
+}
+ol , ul  {
+    list-style-type: none;
+    padding:0px;
+}
+li {
+    margin:0px;
+    padding:0px;
+}
+/* Li {
+    text-align: center;
+    vertical-align: sub;
+} */
+
+.vertical-view {
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.horizontal-view {
+
+    display: flex;
+    flex-flow: row  wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.the-working-pads {
+
+    background-color: rgb(172, 159, 44);
+
+    padding: 60px;
+    margin: 40px;
+
+}
+
+
+.num-pad {
+
+    background-color: blue;
+
+    /* height: 300px;
+    width: 300px; */
+
+}
+.square-pad {
+    background-color: crimson; 
+}
+
+
+.pad-model {
+
+    background-color: gray;
+    border-radius: 15px;
+
+    width: 320px ;
+    height: auto; 
+
+} 
+
+.onBox { 
+    background-color: chartreuse;
+    width: 196px; 
+    margin: auto;
+
+    display: inline-block;
+    
+    
+}
+.inside-the-square { padding: 0px 2px 0px 2px ;}
+
+li:nth-of-type(3n) { clear: right;}
+
+.pad-button {
+    text-align: center; 
+   
+    
+    border-radius: 10px;
+    background-color: aliceblue;
+
+    padding: 3px;
+    margin: 4px;
+
+    width: 56px; 
+    height: 56px;
+
+    float: left;   
+}
+.pad-button:active {
+    
+}
+p{
+    vertical-align: sub; 
+    color: red;
+}
+
+.tipBox {
+    width: 90% ;
+
+}
+
+
+
+#the-functions-pad {
+    display:none ;
+}
+
+
+
+
+/* .now-use-calculator , .pad-model {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.pad-model {
+    background-color: blue ;
+    width: 300px;
+}
+
+ol , .the-working-pads{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+ol:nth-child(3n) {
+
+    clear: right;
+
+} */
